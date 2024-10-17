@@ -25,4 +25,15 @@ This project implements the **String Calculator Kata** in TypeScript following t
 2. Install dependencies:
    ```bash
    npm install
-3. Compile the code and running the test
+3. Compiles the TypeScript code to JavaScript using the TypeScript compiler.
+   ```bash
+   npm run build
+4. Runs the Jest test cases.
+   ```bash
+   npm test
+5. Watches for changes in your files and reruns tests automatically.
+   ```bash
+   npm run test:watch
+6. Runs tests and generates a code coverage report.
+   ```bash
+   npm run test:coverage
