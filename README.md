@@ -23,4 +23,6 @@ This project implements the **String Calculator Kata** in TypeScript following t
    git clone https://github.com/your-username/string-calculator-kata.git
    cd string-calculator-kata
 2. Install dependencies:
+   ```bash
+   npm install
 3. Compile the code and running the test
