@@ -37,3 +37,29 @@ This project implements the **String Calculator Kata** in TypeScript following t
 6. Runs tests and generates a code coverage report.
    ```bash
    npm run test:coverage
+
+## Test-Driven Development (TDD)
+
+The development of this project followed the TDD process:
+
+1. Write a failing test for a new feature.
+2. Implement the simplest solution to make the test pass.
+3. Refactor the code to improve its design while keeping the tests passing.
+
+You can find the test cases in the `tests` folder.
+
+## Project Structure
+
+```php
+string-calculator-kata/
+│
+├── src/
+│   └── calculator.ts        # StringCalculator class implementation
+│
+├── tests/
+│   └── calculator.test.ts   # Unit tests for the StringCalculator class
+│
+├── jest.config.js           # Jest configuration file
+├── tsconfig.json            # TypeScript configuration file
+├── package.json             # Project metadata and dependencies
+└── README.md                # Project documentation
