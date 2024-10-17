@@ -54,10 +54,10 @@ You can find the test cases in the `tests` folder.
 string-calculator-kata/
 │
 ├── src/
-│   └── calculator.ts        # StringCalculator class implementation
+│   └── stringCalculator.ts        # StringCalculator class implementation
 │
 ├── tests/
-│   └── calculator.test.ts   # Unit tests for the StringCalculator class
+│   └── stringCalculator.test.ts   # Unit tests for the StringCalculator class
 │
 ├── jest.config.js           # Jest configuration file
 ├── tsconfig.json            # TypeScript configuration file
